@@ -1,0 +1,30 @@
+{
+  "name": "montyhall",
+  "version": "1.0.0",
+  "description": "Monty Hall Solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx parcel build index.html -d docs --public-url ./"
+  },
+  "author": "John D Dews-Flick",
+  "license": "MIT",
+  "dependencies": {
+    "chartist-plugin-axistitle": "0.0.7",
+    "normalize.css": "^8.0.1",
+    "vue": "^2.6.11",
+    "vue-chartist": "^2.2.1",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.2",
+    "cssnano": "^4.1.10",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ]
+}
